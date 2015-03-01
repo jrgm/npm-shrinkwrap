@@ -23,8 +23,8 @@
       }
     },
     "jshint": {
-      "version": "2.6.3",
-      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.6.3.tgz",
+      "version": "2.6.2",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.6.2.tgz",
       "dependencies": {
         "cli": {
           "version": "0.6.5",
