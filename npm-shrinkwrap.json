@@ -9,8 +9,8 @@
       "resolved": "https://registry.npmjs.org/array-find/-/array-find-0.1.1.tgz"
     },
     "error": {
-      "version": "4.4.0",
-      "resolved": "https://registry.npmjs.org/error/-/error-4.4.0.tgz",
+      "version": "5.1.1",
+      "resolved": "https://registry.npmjs.org/error/-/error-5.1.1.tgz",
       "dependencies": {
         "camelize": {
           "version": "1.0.0",
@@ -23,8 +23,8 @@
       }
     },
     "jshint": {
-      "version": "2.5.9",
-      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.5.9.tgz",
+      "version": "2.6.3",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.6.3.tgz",
       "dependencies": {
         "cli": {
           "version": "0.6.5",
@@ -851,8 +851,20 @@
       "resolved": "https://registry.npmjs.org/run-series/-/run-series-1.0.2.tgz"
     },
     "safe-json-parse": {
-      "version": "2.0.0",
-      "resolved": "https://registry.npmjs.org/safe-json-parse/-/safe-json-parse-2.0.0.tgz"
+      "version": "4.0.0",
+      "resolved": "https://registry.npmjs.org/safe-json-parse/-/safe-json-parse-4.0.0.tgz",
+      "dependencies": {
+        "rust-result": {
+          "version": "1.0.0",
+          "resolved": "https://registry.npmjs.org/rust-result/-/rust-result-1.0.0.tgz",
+          "dependencies": {
+            "individual": {
+              "version": "2.0.0",
+              "resolved": "https://registry.npmjs.org/individual/-/individual-2.0.0.tgz"
+            }
+          }
+        }
+      }
     },
     "semver": {
       "version": "4.3.1",
